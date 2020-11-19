@@ -1,2 +1,2 @@
 # DeepMirCut_Data
-Dataset Generation Scripts for DeepMirCut
+Scripts used to gather data for DeepMirCut
