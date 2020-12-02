@@ -1,5 +1,5 @@
 #!/usr/bin/perl -w 
-do "Scripts/bpRNA.pl";
+do "./Scripts/bpRNA.pl";
 use strict;
 
 my $usage = "USAGE:\n$0 <data set>";
