@@ -9,8 +9,8 @@ my $miRBaseGff = "$speciesPrefix\.gff3";
 my $genomeFileLocation = "https://de.cyverse.org/dl/d/7324CC86-BAF4-4989-8E70-5B54BE8FB523/MedtrA17_3.5.assemblies.fasta";
 my $assemblyInfoFileLocation = "";
 my $gffFileLocation = "ftp://mirbase.org/pub/mirbase/$mirBaseVersion/genomes/$miRBaseGff";
-my $precursorFastaLocation = "/nfs0/BB/Hendrix_Lab/MicroRNAs/miRBase_v22/hairpin.fa";
-my $matureFastaLocation = "/nfs0/BB/Hendrix_Lab/MicroRNAs/miRBase_v22/mature.fa";
+my $precursorFastaLocation = "hairpin.fa";
+my $matureFastaLocation = "mature.fa";
 
 my $gDir = "./genomes";
 my $outputDir = "./miRSequenceOutput";

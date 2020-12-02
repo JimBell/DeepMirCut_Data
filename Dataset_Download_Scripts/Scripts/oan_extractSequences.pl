@@ -9,8 +9,8 @@ my $miRBaseGff = "$speciesPrefix\.gff3";
 my $genomeFileLocation = "ftp://ftp.ensembl.org/pub/release-95/fasta/ornithorhynchus_anatinus/dna/Ornithorhynchus_anatinus.OANA5.dna_sm.toplevel.fa.gz";
 my $assemblyInfoFileLocation = "";
 my $gffFileLocation = "ftp://mirbase.org/pub/mirbase/$mirBaseVersion/genomes/$miRBaseGff";
-my $precursorFastaLocation = "/nfs0/BB/Hendrix_Lab/MicroRNAs/miRBase_v22/hairpin.fa";
-my $matureFastaLocation = "/nfs0/BB/Hendrix_Lab/MicroRNAs/miRBase_v22/mature.fa";
+my $precursorFastaLocation = "hairpin.fa";
+my $matureFastaLocation = "mature.fa";
 
 my $gDir = "./genomes";
 my $outputDir = "./miRSequenceOutput";

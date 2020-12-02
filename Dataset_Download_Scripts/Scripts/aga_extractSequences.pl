@@ -10,8 +10,8 @@ my $miRBaseGff = "$speciesPrefix\.gff3";
 my $genomeFileLocation = "ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/000/005/575/GCA_000005575.1_AgamP3/GCA_000005575.1_AgamP3_genomic.fna.gz";
 my $assemblyInfoFileLocation = "ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/000/005/575/GCA_000005575.1_AgamP3/GCA_000005575.1_AgamP3_assembly_report.txt";
 my $gffFileLocation = "ftp://mirbase.org/pub/mirbase/$mirBaseVersion/genomes/$miRBaseGff";
-my $precursorFastaLocation = "/nfs0/BB/Hendrix_Lab/MicroRNAs/miRBase_v22/hairpin.fa";
-my $matureFastaLocation = "/nfs0/BB/Hendrix_Lab/MicroRNAs/miRBase_v22/mature.fa";
+my $precursorFastaLocation = "hairpin.fa";
+my $matureFastaLocation = "mature.fa";
 
 my $gDir = "./genomes";
 my $outputDir = "./miRSequenceOutput";
