@@ -1,4 +1,5 @@
-#!/usr/bin/perl -w 
+#!/usr/bin/perl -w
+use Graph;
 do "./Scripts/bpRNA.pl";
 use strict;
 
