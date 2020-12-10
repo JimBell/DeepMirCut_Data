@@ -1,4 +1,4 @@
-# deep-mir-cut Data Sets
+# deep-mir-cut Data
 
 This repository contains the following datasets:
 * [mir_dataset.txt] - The full dataset of extended sequences
