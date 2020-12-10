@@ -1,5 +1,5 @@
 
-# deep-mir-cut Train, Validation, and Test Set Generation
+# Train, Validation, and Test Set Generation
 
 The generateTrainTestSets.sh script will create training, validation, and testing sets.  
 
