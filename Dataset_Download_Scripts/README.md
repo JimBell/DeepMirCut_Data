@@ -3,7 +3,14 @@
 
 If you plan on running these scripts, please add the PerlModules/miRBaseDataGatherer.pm to your PERL5LIB path.
 
-The downloadSequenceData.sh script may be run to download all the neccessary files and extract information about each organism microRNAs (download includes entire genome for each organsim so it is around 100GB in size.)
+The following dependencies are required for these scripts to work properly:
+* [The ViennaRNA Package](https://www.tbi.univie.ac.at/RNA/)
+* [samtools](http://www.htslib.org/download/)
+* [Emboss](ftp://emboss.open-bio.org/pub/EMBOSS/)
+* [cd-hit](https://github.com/weizhongli/cdhit)
+
+
+The downloadSequenceData.sh script will download all the neccessary files and extract information about each organism microRNAs (download includes entire genome for each organsim so it is around 100GB in size.)
 
 ```sh
 $ bash downloadSequenceData.sh
