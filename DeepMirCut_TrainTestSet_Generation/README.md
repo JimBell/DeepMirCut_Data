@@ -1,12 +1,12 @@
 
 # deep-mir-cut Train, Validation, and Test Set Generation
 
-The generateTrainTestSets.sh script may be used to create training, validation, and testing sets.  
+The generateTrainTestSets.sh script will create training, validation, and testing sets.  
 
 First make sure you have all dependencies installed:
 * [The ViennaRNA Package](https://www.tbi.univie.ac.at/RNA/)
 * [bpRNA](https://github.com/hendrixlab/bpRNA)
-* [Emboss](ftp://emboss.open-bio.org/pub/EMBOSS/)
+* [Emboss](http://emboss.open-bio.org/)
 * [cd-hit](https://github.com/weizhongli/cdhit)
 * [Graph.pm perl module](https://metacpan.org/pod/distribution/Graph/lib/Graph.pod)
 
@@ -20,7 +20,7 @@ $ bash generateTrainTestSets.sh
 
 # Details of generateTrainTestSets.sh Script
 
-generateTrainTestSets.sh downloads the hairpin fasta from miRBase and the organisms file and runs scripts to find all microRNAs with 2 products.  The cd-hit command is used to filter these down to just microRNA within 80% identity with one another.  The precursors identified by cd-hit are divided up by the type of organism.  Precursor names from metazoan species are passed into a script called createTrainTestSets.pl which divides them up into the train, test, and validation sets.
+First, generateTrainTestSets.sh downloads the hairpin fasta and orgamisms file from miRBase.  All microRNA's with less than 2 products are filtered out and the rest are processed with cd-hit in order to identify a set of microRNA that share at most 80% identity with other microRNAs in the set.  Next, precursors from this set are divided up by the type of organism.  Finally, createTrainTestSets.pl is used to divide the group of Metazoan precursors into train, test, and validation sets.
 
 ```sh
 $ wget ftp://mirbase.org/pub/mirbase/22/hairpin.fa.gz
