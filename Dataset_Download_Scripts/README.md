@@ -6,7 +6,7 @@ If you plan on running these scripts, please add the PerlModules/miRBaseDataGath
 The following dependencies are required for these scripts to work properly:
 * [The ViennaRNA Package](https://www.tbi.univie.ac.at/RNA/)
 * [samtools](http://www.htslib.org/download/)
-* [Emboss](ftp://emboss.open-bio.org/pub/EMBOSS/)
+* [Emboss](http://emboss.open-bio.org/)
 * [cd-hit](https://github.com/weizhongli/cdhit)
 
 
